@@ -149,7 +149,7 @@ class BST {
     }
   }
 
-  // inOrder, preOrder, postOrder => are a sorting way of tree
+  // inOrder, preOrder, postOrder => are a sorting way of tree (Traversal)
   inOrder() {
     if (this.root == null) {
       return null;

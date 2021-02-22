@@ -41,7 +41,7 @@ class HashTable {
       delete this.storage[index];
     else
       for (let i = 0; i < this.storage[index].length; i++)
-        if (this.storage[index][i][0] === key) delete this.storage[index];
+        if (this.storage[index][i][0] === key) delete this.storage[index][i];
   }
 
   lookup(key) {
